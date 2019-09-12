@@ -13,6 +13,7 @@ namespace MethodWork
             Console.WriteLine(Add(Add(1, 2), Add(10, 5)));
             Console.WriteLine(Multiply(2, 3));
             Console.WriteLine(Divide(25, 13));
+            Console.WriteLine("\n");
         }
         //access modifier, (static), return type, method name (parameter1, parameter2,...)
         public static void WriteSomething()
