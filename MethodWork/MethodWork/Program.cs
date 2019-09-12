@@ -14,6 +14,9 @@ namespace MethodWork
             Console.WriteLine(Multiply(2, 3));
             Console.WriteLine(Divide(25, 13));
             Console.WriteLine("\n");
+
+            HelloFriend("Jeff", "Amanda", "Tyson");
+            Console.WriteLine("\n");
         }
         //access modifier, (static), return type, method name (parameter1, parameter2,...)
         public static void WriteSomething()
@@ -45,6 +48,14 @@ namespace MethodWork
 
         //----------------------------------------------------
 
+        public static void HelloFriend(string friend1, string friend2, string friend3)
+        {
+            Console.WriteLine("Hi " + friend1 + ", my friend.");
+            Console.WriteLine("Hi " + friend2 + ", my friend.");
+            Console.WriteLine("Hi " + friend3 + ", my friend.");
+        }
+
+        //-----------------------------------------------------
 
     }
 }
