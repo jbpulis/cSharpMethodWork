@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodWork", "MethodWork\MethodWork.csproj", "{F2FCDFD6-6584-440F-9AD2-A11473453E0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2FCDFD6-6584-440F-9AD2-A11473453E0B}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{F2FCDFD6-6584-440F-9AD2-A11473453E0B}.Debug|anycpu.Build.0 = Debug|anycpu
+		{F2FCDFD6-6584-440F-9AD2-A11473453E0B}.Release|anycpu.ActiveCfg = Release|anycpu
+		{F2FCDFD6-6584-440F-9AD2-A11473453E0B}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
