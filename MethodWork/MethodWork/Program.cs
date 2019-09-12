@@ -17,6 +17,11 @@ namespace MethodWork
 
             HelloFriend("Jeff", "Amanda", "Tyson");
             Console.WriteLine("\n");
+
+            Console.WriteLine("Enter your name: ");
+            string input = Console.ReadLine();
+            Console.WriteLine(input);
+            Addition();
         }
         //access modifier, (static), return type, method name (parameter1, parameter2,...)
         public static void WriteSomething()
@@ -56,6 +61,21 @@ namespace MethodWork
         }
 
         //-----------------------------------------------------
+
+        public static void Addition()
+        {
+
+            Console.WriteLine("Enter the first value to add:");
+            int input1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the second value to add:");
+            int input2 = Convert.ToInt32(Console.ReadLine());
+            int sum = input1 + input2;
+            Console.WriteLine("The sum of " + input1 + " + " + input2 + " is " + sum);
+
+        }
+
+        //------------------------------------------------------
+
 
     }
 }
