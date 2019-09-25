@@ -51,9 +51,64 @@ namespace MethodWork
                 Console.WriteLine("This is called anyways!");
             }
             Division();
+            Console.WriteLine("\n");
 
 
+            int num1 = 5;
+            int num2 = 3;
+            int num3;
 
+            // unary operators
+            num3 = -num1;
+            Console.WriteLine("num3 is {0}", num3);
+
+            bool isSunny = true;
+
+            Console.WriteLine("is it sunny? {0}", !isSunny);
+
+            //increment operator
+            int num = 0;
+            num++;
+            Console.WriteLine("num is {0}", num);
+            //postincrement
+            Console.WriteLine("num is {0}", num++);
+            Console.WriteLine("num is {0}", num);
+            //preincrement
+            Console.WriteLine("num is {0}", ++num);
+
+            //decrement operator
+            Console.WriteLine("num is {0}", num);
+            //postdecrement
+            Console.WriteLine("num is {0}", num--);
+            Console.WriteLine("num is {0}", num);
+            //predecrement
+            Console.WriteLine("num is {0}", --num);
+
+            //additive/multiplicative operators
+            int result;
+            result = num1 + num2;
+            Console.WriteLine("result of num1 + num2 is {0}", result);
+            result = num1 - num2;
+            Console.WriteLine("result of num1 - num2 is {0}", result);
+            result = num1 * num2;
+            Console.WriteLine("result of num1 x num2 is {0}", result);
+            result = num1 / num2;
+            Console.WriteLine("result of num1 / num2 is {0}", result);
+            result = num1 % num2;
+            Console.WriteLine("result of num1 % num2 is {0}", result);
+
+            //relational and type operators
+            bool isLower;
+            isLower = num1 < num2;
+            Console.WriteLine("result of num1 < num2 is {0}", isLower);
+
+            //equality operator
+            bool isEqual;
+            isEqual = num1 == num2;
+            Console.WriteLine("result of num1 == num2 is {0}", isEqual);
+
+            isEqual = num1 != num2;
+            Console.WriteLine("result of num1 == num2 is {0}", isEqual);
 
         }
         //access modifier, (static), return type, method name (parameter1, parameter2,...)
